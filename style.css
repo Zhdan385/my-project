@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
+
+header {
+  padding: 78px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  text-align: center;
+}
+
+.nav-list-item {
+  display: inline-block;
+  margin: 0 60px;
+  color: #626262;
+  transition: 0.7s;
+  font-style: 12px;
+}
+
+.nav-list-item:hover {
+  color: #03a9f3;
+  font-size: 20px;
+}
+
+.main-list {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.main-list-item {
+  display: inline-block;
+  width: 420px;
+  margin-right: 55px;
+  margin-bottom: 120px;
+}
+
+.main-list-item:nth-of-type(even) {
+  margin: 0;
+}
+
+.main-list-img {
+  width: 100%;
+  height: 280px;
+  margin-bottom: 30px;
+}
+
+.category {
+  margin-bottom: 24px;
+  color: #b4ae9e;
+  font-size: 10px;
+}
+
+.main-list-title {
+  margin-bottom: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+}
+
+.main-list-text {
+  font-size: 12px;
+}
+
+.main-list-buttom {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 60px;
+  background-color: transparent;
+  margin-bottom: 21px;
+  border: 1px solid #626262;
+  color: inherit;
+  font-family: inherit;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.7s;
+}
+
+.main-list-buttom:hover {
+  transform: scale(1.5);
+  background-color: #626262;
+  color: white;
+  border-radius: 5px;
+}
